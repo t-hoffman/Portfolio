@@ -18,6 +18,7 @@ nav, header {
     padding: 15px;
     color: white;
     background-color: black;
+    text-align: center;
 }
 
 a {
@@ -46,6 +47,8 @@ button {
     background-color: #151B22;
     color: white;
     font-weight: bold;
+    font-size: 12pt;
+    font-family: 'Playfair Display', sans-serif;
 }
 
 h1 {
