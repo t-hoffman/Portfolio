@@ -1,0 +1,34 @@
+[
+    {
+        "name": "TicTacToe / Lilo Tamagotchi",
+        "live": [
+            "https://t-hoffman.github.io/project_0/tictactoe.html",
+            "https://t-hoffman.github.io/project_0/"
+        ],
+        "git": "https://github.com/t-hoffman/project_0",
+        "image": [
+            "https://user-images.githubusercontent.com/116391297/207213284-a49b87a6-6699-4049-b7d1-1f44c6276b7e.png"
+        ]
+    },
+    {
+        "name": "Game of Checkers",
+        "live": [
+            "https://t-hoffman.github.io/Project_1_Checkers/"
+        ],
+        "git": "https://github.com/t-hoffman/Project_1_Checkers",
+        "image": [
+            "https://user-images.githubusercontent.com/116391297/202834078-23c7a943-740f-40d1-aba9-6425bcc67d85.png"
+        ]
+    },
+    {
+        "name": "Foodie",
+        "live": [
+            "https://thoffman-project2.netlify.app/"
+        ],
+        "git": "https://github.com/t-hoffman/Project-2-Foodie-API",
+        "image": [
+            "https://user-images.githubusercontent.com/116391297/207214443-14990618-c0e5-43df-9097-d524d02c7c9e.png",
+            "https://user-images.githubusercontent.com/116391297/207214450-5b5af769-8b42-4c09-b2d9-b6305f1d2b79.jpg"
+        ]
+    }
+]
