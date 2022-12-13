@@ -17,14 +17,17 @@ console.log(projects)
         return projects.map((project) => (
             <div className="projects">
                 <div className="left">
+                    <div className="images">
                 {
                     project.image.map((img) => {
-                        return <img src={img} height="450px" alt={project.name} />
+                        return <div><img src={img} height="450px" alt={project.name} /></div>
                     })
                 }
+                    </div>
                 </div>
                 <div className="right">
-                    <h1>{project.name}</h1>
+                    <div><h1>{project.name}</h1></div>
+                    <div className="buttons">
                     <a href={project.git}>
                     <button>GitHub</button>
                     </a>
@@ -37,6 +40,7 @@ console.log(projects)
                         )
                     })
                 }
+                    </div>
                 </div>
             </div>
         ));
