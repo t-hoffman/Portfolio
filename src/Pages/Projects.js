@@ -15,16 +15,18 @@ const Projects = (props) => {
 console.log(projects)
     const loaded = () => {
         return projects.map((project) => (
-            <div>
-                <h1>{project.name}</h1>
+            <div className="projects">
+                <div className="left">
                 {
                     project.image.map((img) => {
                         return <img src={img} height="450px" alt={project.name} />
                     })
                 }
-                <p>
+                </div>
+                <div className="right">
+                    <h1>{project.name}</h1>
                     <a href={project.git}>
-                    <button>Github</button>
+                    <button>GitHub</button>
                     </a>
                 {
                     project.live.map((live) => {
@@ -35,7 +37,7 @@ console.log(projects)
                         )
                     })
                 }
-                </p>
+                </div>
             </div>
         ));
     };    

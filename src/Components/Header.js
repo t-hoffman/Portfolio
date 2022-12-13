@@ -4,15 +4,13 @@ const Header = (props) => {
     const navStyle = {
         display: 'flex',
         justifyContent: 'space-around',
-        border: '3px solid black',
-        padding: '8px',
-        width: '100%',
+        padding: '15px',
         margin: 'auto',
     };
 
     return (
         <header>
-            <h1>My Portfolio Page</h1>
+            <h1>Tyler Hoffman's Portfolio</h1>
             <nav style={navStyle}>
                 <Link to="/">
                     <div>Home</div>

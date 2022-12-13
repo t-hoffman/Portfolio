@@ -15,9 +15,9 @@ const About = (props) => {
 
     const loaded = () => (
         <div>
-        <h2>{about.name}</h2>
-        <h3>{about.email}</h3>
-        <p>{about.bio}</p>
+            <h2>{about.name}</h2>
+            <h3>{about.email}</h3>
+            <p>{about.bio}</p>
         </div>
     );
 

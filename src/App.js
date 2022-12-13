@@ -13,14 +13,16 @@ export default function App () {
   //const URL = '';
 
   return (
-    <div className="App">
+    <>
       <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/projects" element={<Projects />} />
-      </Routes>
+      <div className="App">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+        </Routes>
+      </div>
       <Footer />
-    </div>
+    </>
   );
 }

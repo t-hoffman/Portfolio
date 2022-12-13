@@ -1,3 +1,62 @@
-body, html {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, sans-serif, Verdana;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Playfair+Display&family=Anek+Gurmukhi:wght@400;700&&display=swap');
+
+html { height: 100%; }
+#root { height: 100%; }
+
+body {
+    font-family: 'Playfair Display', sans-serif;
+    background-color: #efefef;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav, header {
+    padding: 15px;
+    color: white;
+    background-color: black;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+}
+
+a:hover {
+    background-color: white;
+    color: black;
+}
+
+img {
+    border-radius: 15px;
+}
+
+button {
+    padding: 20px;
+    cursor: pointer;
+    border: 0px;
+    margin: 15px;
+    border-radius: 25px;
+    width: 150px;
+    background-color: #151B22;
+    color: white;
+    font-weight: bold;
+}
+
+h1 {
+    margin: 0;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: black;
+    color: white;
+    padding: 15px;
 }

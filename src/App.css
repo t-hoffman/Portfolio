@@ -1,25 +1,33 @@
-/* import { useState, useEffect } from "react";
-
-function About(props) {
-    const [about, setAbout] = useState(null);
-
-    const getAboutData = async () => {
-        const response = await fetch("./about.json");
-        const data = await response.json();
-        setAbout(data);
-    };
-
-    useEffect(() => getAboutData(), []);
-
-    const loaded = () => (
-        <div>
-        <h2>{about.name}</h2>
-        <h3>{about.email}</h3>
-        <p>{about.bio}</p>
-        </div>
-    );
-
-    return about ? loaded() : <h1>Loading...</h1>;
+.App {
+    width: 70%;
+    min-height: 100%;
+    background-color: white;
+    margin: 0 auto;
+    padding: 50px;
 }
 
-export default About; */
+.App div {
+    padding: 10px;
+}
+
+.projects {
+    display: flex;
+    width: 100%;
+}
+
+.left {
+    width: 60%;
+    text-align: right;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 40%;
+}
+
+.left img {
+    margin: 0 10px 0 0;
+    max-width: 100%;
+}
