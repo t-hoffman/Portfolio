@@ -10,7 +10,7 @@ import About from 'Pages/About';
 import Projects from 'Pages/Projects';
 
 export default function App () {
-  const URL = '';
+  //const URL = '';
 
   return (
     <div className="App">

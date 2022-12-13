@@ -19,7 +19,7 @@ console.log(projects)
                 <h1>{project.name}</h1>
                 {
                     project.image.map((img) => {
-                        return <img src={img} height="450px" />
+                        return <img src={img} height="450px" alt={project.name} />
                     })
                 }
                 <p>
